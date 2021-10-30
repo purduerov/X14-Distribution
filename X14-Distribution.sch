@@ -4716,97 +4716,125 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="52101-101-REV-A_v16" urn="urn:adsk.eagle:library:21899384">
-<description>Generated from &lt;b&gt;Testing&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
+<library name="Transistor" urn="urn:adsk.eagle:library:16378713">
+<description>&lt;B&gt;BJT, JFET, MOSFET, UJT, Darlington</description>
 <packages>
-<package name="TRANSISTOR-FET_SOT23" urn="urn:adsk.eagle:footprint:15662230/1" library_version="1">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-reflow soldering</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.7636" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.2032" layer="21"/>
-<wire x1="0.7636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.2032" layer="21"/>
-<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:28669/1" library_version="7">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<text x="1.27" y="1.27" size="1.016" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="TRANSISTOR-FET_SOT23" urn="urn:adsk.eagle:package:15662287/2" type="model" library_version="1">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-reflow soldering</description>
+<package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model" library_version="7">
+<description>SOT-23</description>
 <packageinstances>
-<packageinstance name="TRANSISTOR-FET_SOT23"/>
+<packageinstance name="SOT23"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="TRANSISTOR-FET_EMOS-PD" urn="urn:adsk.eagle:symbol:21899393/1" library_version="1">
-<circle x="0" y="-2.2225" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="2.2225" radius="0.127" width="0.4064" layer="94"/>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="-0.5715" x2="1.778" y2="-0.3175" layer="94" rot="R180"/>
-<wire x1="-1.0795" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-2.2225" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.2225" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="-1.5875" y1="2.2225" x2="0" y2="2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.2225" x2="1.27" y2="2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.2225" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.2225" x2="1.27" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="2.2225" width="0.1524" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="0.635" y="2.8575" size="1.016" layer="95">D</text>
-<text x="0.635" y="-3.81" size="1.016" layer="95">S</text>
-<text x="-3.81" y="-1.905" size="1.016" layer="95">G</text>
-<polygon width="0.1016" layer="94">
-<vertex x="-1.0795" y="0.635"/>
-<vertex x="-1.0795" y="-0.635"/>
-<vertex x="-0.0635" y="0"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0.762" y="0.4445"/>
-<vertex x="1.27" y="-0.317503125"/>
-<vertex x="1.778" y="0.4445"/>
-</polygon>
+<symbol name="MFPS" urn="urn:adsk.eagle:symbol:16378717/2" library_version="7">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.5334" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.2352" y1="0" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0.508" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0.254" x2="2.032" y2="0" width="0.3048" layer="94"/>
+<wire x1="2.032" y1="0" x2="1.143" y2="-0.254" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="-0.254" x2="1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="0" x2="1.397" y2="0" width="0.3048" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="5.715" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="-0.635" x2="4.445" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-0.635" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="0.762" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="4.445" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="0.762" x2="4.191" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="0.762" x2="5.969" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="6.35" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="6.35" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.524" y="-3.302" size="0.8128" layer="93">D</text>
+<text x="1.524" y="2.54" size="0.8128" layer="93">S</text>
+<text x="-2.286" y="1.27" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TRANSISTOR-FET_DMP2004K" urn="urn:adsk.eagle:component:21899469/1" prefix="Q" library_version="1">
-<description>&lt;b&gt;P-Channel Enhancement MOSFET&lt;/b&gt;</description>
+<deviceset name="PMOSFET_" urn="urn:adsk.eagle:component:16378732/5" prefix="Q" uservalue="yes" library_version="7">
+<description>&lt;b&gt;P-Channel MOSFET - Popular parts&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="TRANSISTOR-FET_EMOS-PD" x="0" y="0"/>
+<gate name="G$1" symbol="MFPS" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="TRANSISTOR-FET_SOT23">
+<device name="" package="SOT23">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15662287/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="BSS84">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="MOSFET P-CH 50V 130MA SOT-23"/>
+<attribute name="DRAIN_CURRENT" value="130mA" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="BSS84" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="Yes" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="MOSFET" constant="no"/>
+<attribute name="THERMALLOSS" value="360mW" constant="no"/>
+<attribute name="TYPE" value="P-Channel" constant="no"/>
+<attribute name="VALUE" value="BSS84" constant="no"/>
+</technology>
+<technology name="IRLML5203">
+<attribute name="CATEGORY" value="Transistor" constant="no"/>
+<attribute name="DESCRIPTION" value="MOSFET P-CH 30V 3A SOT-23" constant="no"/>
+<attribute name="DRAIN_CURRENT" value="3A" constant="no"/>
+<attribute name="MANUFACTURER" value="Infineon Technologies" constant="no"/>
+<attribute name="MPN" value="IRLML5203TRPBF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 150°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="Yes" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="MOSFET" constant="no"/>
+<attribute name="THERMALLOSS" value="1.25W" constant="no"/>
+<attribute name="TYPE" value="P-Channel" constant="no"/>
+<attribute name="VALUE" value="IRLML5203" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4878,10 +4906,10 @@ reflow soldering</description>
 <part name="U$1" library="CONN, Distribution-Conversion" deviceset="DISTRIBUTION-CONVERSION" device=""/>
 <part name="D11" library="DIODE, Dist Oring Schottky Diode" deviceset="DIODE-DO-214AC(SK34ATR)" device="" value=""/>
 <part name="D12" library="DIODE, Dist Oring Schottky Diode" deviceset="DIODE-DO-214AC(SK34ATR)" device="" value=""/>
-<part name="Q5" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TRANSISTOR-FET_DMP2004K" device="" package3d_urn="urn:adsk.eagle:package:15662287/2" value=""/>
-<part name="Q6" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TRANSISTOR-FET_DMP2004K" device="" package3d_urn="urn:adsk.eagle:package:15662287/2" value=""/>
-<part name="Q7" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TRANSISTOR-FET_DMP2004K" device="" package3d_urn="urn:adsk.eagle:package:15662287/2" value=""/>
-<part name="A8" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TRANSISTOR-FET_DMP2004K" device="" package3d_urn="urn:adsk.eagle:package:15662287/2" value=""/>
+<part name="Q5" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET_" device="" package3d_urn="urn:adsk.eagle:package:28738/2" technology="IRLML5203" value="IRLML5203"/>
+<part name="Q6" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET_" device="" package3d_urn="urn:adsk.eagle:package:28738/2" technology="IRLML5203" value="IRLML5203"/>
+<part name="Q7" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET_" device="" package3d_urn="urn:adsk.eagle:package:28738/2" technology="IRLML5203" value="IRLML5203"/>
+<part name="Q8" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET_" device="" package3d_urn="urn:adsk.eagle:package:28738/2" technology="IRLML5203" value="IRLML5203"/>
 </parts>
 <sheets>
 <sheet>
@@ -5124,21 +5152,21 @@ reflow soldering</description>
 <attribute name="NAME" x="179.578" y="-62.484" size="1.778" layer="95"/>
 <attribute name="VALUE" x="179.07" y="-69.342" size="1.778" layer="96"/>
 </instance>
-<instance part="Q5" gate="G$1" x="190.246" y="116.3574" smashed="yes">
-<attribute name="VALUE" x="192.786" y="113.8174" size="1.778" layer="96"/>
-<attribute name="NAME" x="192.786" y="116.3574" size="1.778" layer="95"/>
+<instance part="Q5" gate="G$1" x="187.706" y="111.252" smashed="yes">
+<attribute name="NAME" x="194.056" y="112.522" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.056" y="109.982" size="1.778" layer="96"/>
 </instance>
-<instance part="Q6" gate="G$1" x="234.442" y="116.84" smashed="yes">
-<attribute name="VALUE" x="236.982" y="114.3" size="1.778" layer="96"/>
-<attribute name="NAME" x="236.982" y="116.84" size="1.778" layer="95"/>
+<instance part="Q6" gate="G$1" x="210.566" y="80.518" smashed="yes">
+<attribute name="NAME" x="216.916" y="81.788" size="1.778" layer="95"/>
+<attribute name="VALUE" x="216.916" y="79.248" size="1.778" layer="96"/>
 </instance>
-<instance part="Q7" gate="G$1" x="213.106" y="85.598" smashed="yes">
-<attribute name="VALUE" x="215.646" y="83.058" size="1.778" layer="96"/>
-<attribute name="NAME" x="215.646" y="85.598" size="1.778" layer="95"/>
+<instance part="Q7" gate="G$1" x="231.902" y="111.76" smashed="yes">
+<attribute name="NAME" x="238.252" y="113.03" size="1.778" layer="95"/>
+<attribute name="VALUE" x="238.252" y="110.49" size="1.778" layer="96"/>
 </instance>
-<instance part="A8" gate="G$1" x="257.302" y="86.36" smashed="yes">
-<attribute name="VALUE" x="259.842" y="83.82" size="1.778" layer="96"/>
-<attribute name="NAME" x="259.842" y="86.36" size="1.778" layer="95"/>
+<instance part="Q8" gate="G$1" x="254.762" y="81.28" smashed="yes">
+<attribute name="NAME" x="261.112" y="82.55" size="1.778" layer="95"/>
+<attribute name="VALUE" x="261.112" y="80.01" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5221,14 +5249,14 @@ reflow soldering</description>
 <label x="105.918" y="116.332" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="190.246" y1="121.4374" x2="190.246" y2="130.81" width="0.1524" layer="91"/>
 <label x="190.246" y="130.81" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="Q5" gate="G$1" pin="D"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<wire x1="190.246" y1="116.332" x2="190.246" y2="130.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="234.442" y1="121.92" x2="234.442" y2="132.08" width="0.1524" layer="91"/>
 <label x="234.442" y="132.08" size="1.778" layer="95" xref="yes"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
+<pinref part="Q7" gate="G$1" pin="S"/>
+<wire x1="234.442" y1="116.84" x2="234.442" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TETHER" gate="A" pin="6"/>
@@ -5349,10 +5377,10 @@ reflow soldering</description>
 <label x="44.45" y="130.81" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="113.8174" x2="180.34" y2="108.712" width="0.1524" layer="91"/>
 <label x="180.34" y="108.712" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q5" gate="G$1" pin="G"/>
-<wire x1="180.34" y1="113.8174" x2="185.166" y2="113.8174" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="113.792" x2="180.34" y2="108.712" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="113.792" x2="185.166" y2="113.792" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OR_DRIVE_B" class="0">
@@ -5365,7 +5393,7 @@ reflow soldering</description>
 <segment>
 <wire x1="225.552" y1="114.3" x2="225.552" y2="109.22" width="0.1524" layer="91"/>
 <label x="225.552" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="Q6" gate="G$1" pin="G"/>
+<pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="225.552" y1="114.3" x2="229.362" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5495,8 +5523,8 @@ reflow soldering</description>
 <wire x1="208.026" y1="64.77" x2="208.026" y2="62.23" width="0.1524" layer="91"/>
 <junction x="208.026" y="64.77"/>
 <label x="208.026" y="62.23" size="1.778" layer="95" xref="yes"/>
-<pinref part="Q7" gate="G$1" pin="S"/>
-<wire x1="213.106" y1="64.77" x2="213.106" y2="80.518" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
+<wire x1="213.106" y1="64.77" x2="213.106" y2="75.438" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -5510,8 +5538,8 @@ reflow soldering</description>
 <wire x1="252.222" y1="65.532" x2="252.222" y2="62.992" width="0.1524" layer="91"/>
 <junction x="252.222" y="65.532"/>
 <label x="252.222" y="62.992" size="1.778" layer="95" xref="yes"/>
-<pinref part="A8" gate="G$1" pin="S"/>
-<wire x1="257.302" y1="65.532" x2="257.302" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="Q8" gate="G$1" pin="D"/>
+<wire x1="257.302" y1="65.532" x2="257.302" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE_POWER" gate="G$1" pin="6"/>
@@ -5562,9 +5590,9 @@ reflow soldering</description>
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="202.946" y1="96.012" x2="202.946" y2="98.552" width="0.1524" layer="91"/>
 <wire x1="202.946" y1="98.552" x2="190.246" y2="98.552" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
-<wire x1="190.246" y1="111.2774" x2="190.246" y2="98.552" width="0.1524" layer="91"/>
 <junction x="190.246" y="98.552"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="190.246" y1="106.172" x2="190.246" y2="98.552" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_DRIVE_A" class="0">
@@ -5573,31 +5601,31 @@ reflow soldering</description>
 <pinref part="D9" gate="G$1" pin="A"/>
 <label x="202.946" y="83.312" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="202.946" y1="77.47" x2="202.946" y2="83.058" width="0.1524" layer="91"/>
-<pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="202.946" y1="83.058" x2="202.946" y2="90.932" width="0.1524" layer="91"/>
 <wire x1="202.946" y1="83.058" x2="208.026" y2="83.058" width="0.1524" layer="91"/>
 <junction x="202.946" y="83.058"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="D10" gate="G$1" pin="C"/>
-<wire x1="234.442" y1="99.06" x2="234.442" y2="78.232" width="0.1524" layer="91"/>
+<wire x1="234.442" y1="99.06" x2="234.442" y2="98.806" width="0.1524" layer="91"/>
+<wire x1="234.442" y1="98.806" x2="234.442" y2="78.232" width="0.1524" layer="91"/>
 <wire x1="247.142" y1="96.52" x2="247.142" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="247.142" y1="99.06" x2="234.442" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="S"/>
-<wire x1="234.442" y1="99.06" x2="234.442" y2="111.76" width="0.1524" layer="91"/>
-<junction x="234.442" y="99.06"/>
+<pinref part="Q7" gate="G$1" pin="D"/>
+<wire x1="234.442" y1="99.06" x2="234.442" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_DRIVE_B" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="D10" gate="G$1" pin="A"/>
-<wire x1="247.142" y1="78.232" x2="247.142" y2="83.82" width="0.1524" layer="91"/>
 <label x="247.142" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="A8" gate="G$1" pin="G"/>
+<wire x1="247.142" y1="78.232" x2="247.142" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="Q8" gate="G$1" pin="G"/>
 <wire x1="247.142" y1="83.82" x2="247.142" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="247.142" y1="83.82" x2="252.222" y2="83.82" width="0.1524" layer="91"/>
 <junction x="247.142" y="83.82"/>
@@ -5821,15 +5849,15 @@ reflow soldering</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="Q7" gate="G$1" pin="D"/>
-<wire x1="213.106" y1="99.314" x2="213.106" y2="90.678" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<wire x1="213.106" y1="99.314" x2="213.106" y2="85.598" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="A8" gate="G$1" pin="D"/>
+<pinref part="Q8" gate="G$1" pin="S"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="257.302" y1="91.44" x2="257.302" y2="98.552" width="0.1524" layer="91"/>
+<wire x1="257.302" y1="86.36" x2="257.302" y2="98.552" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

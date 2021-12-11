@@ -1758,8 +1758,6 @@ maxErrors = 50
 <contactref element="U1" pad="5"/>
 <contactref element="Q3" pad="1"/>
 <contactref element="Q5" pad="1"/>
-<wire x1="96.52" y1="40.588" x2="96.52" y2="39.826" width="0.6096" layer="1"/>
-<wire x1="96.52" y1="40.588" x2="96.4946" y2="40.6134" width="0.6096" layer="1"/>
 <via x="100.0252" y="41.8338" extent="1-16" drill="0.35"/>
 <wire x1="100.0252" y1="41.8338" x2="101.3206" y2="43.1292" width="0.6096" layer="16"/>
 <wire x1="101.3206" y1="43.1292" x2="101.3206" y2="43.7388" width="0.6096" layer="16"/>
@@ -2600,6 +2598,16 @@ maxErrors = 50
 <vertex x="55.626" y="31.242"/>
 <vertex x="54.61" y="32.258"/>
 <vertex x="44.45" y="32.258"/>
+</polygon>
+<polygon width="0.254" layer="1" pour="cutout">
+<vertex x="76.5048" y="8.6868"/>
+<vertex x="76.5048" y="1.4732"/>
+<vertex x="76.962" y="1.016"/>
+<vertex x="100.838" y="1.016"/>
+<vertex x="101.6" y="1.778"/>
+<vertex x="101.6" y="7.874"/>
+<vertex x="100.33" y="9.144"/>
+<vertex x="76.962" y="9.144"/>
 </polygon>
 </signal>
 </signals>

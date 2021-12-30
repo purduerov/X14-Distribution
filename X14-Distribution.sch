@@ -3410,66 +3410,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="CONN, Distribution-Conversion">
-<packages>
-<package name="TSW-105-05-G-S(D-C)">
-<pad name="1" x="-3.83" y="20.32" drill="0.7"/>
-<pad name="2" x="-1.29" y="20.32" drill="0.7"/>
-<pad name="3" x="1.25" y="20.32" drill="0.7"/>
-<pad name="4" x="3.79" y="20.32" drill="0.7"/>
-<pad name="5" x="-6.37" y="-20.32" drill="0.7"/>
-<text x="-5.08" y="21.59" size="1.778" layer="25">&gt;NAME</text>
-<pad name="6" x="-3.83" y="-20.32" drill="0.7"/>
-<pad name="7" x="-1.29" y="-20.32" drill="0.7"/>
-<pad name="8" x="1.25" y="-20.32" drill="0.7"/>
-<pad name="9" x="3.79" y="-20.32" drill="0.7"/>
-<pad name="10" x="6.33" y="-20.32" drill="0.7"/>
-<wire x1="-5.08" y1="21.59" x2="-5.08" y2="19.05" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="19.05" x2="5.08" y2="19.05" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="19.05" x2="5.08" y2="21.59" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="21.59" x2="-5.08" y2="21.59" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-19.05" x2="-7.62" y2="-21.59" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-21.59" x2="7.62" y2="-21.59" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-21.59" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-19.05" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TSW-105-05-G-S">
-<pin name="VIN+" x="-12.7" y="5.08" length="middle"/>
-<pin name="VIN-" x="-12.7" y="0" length="middle"/>
-<pin name="VOUT+_5" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="VOUT+_3" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="VOUT-" x="17.78" y="-4.572" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DISTRIBUTION-CONVERSION">
-<gates>
-<gate name="G$1" symbol="TSW-105-05-G-S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSW-105-05-G-S(D-C)">
-<connects>
-<connect gate="G$1" pin="VIN+" pad="1 2"/>
-<connect gate="G$1" pin="VIN-" pad="3 4"/>
-<connect gate="G$1" pin="VOUT+_3" pad="5 6"/>
-<connect gate="G$1" pin="VOUT+_5" pad="7 8"/>
-<connect gate="G$1" pin="VOUT-" pad="9 10"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CONN, Distribution-Bricks">
 <packages>
 <package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)">
@@ -3592,6 +3532,66 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="CONN, Distribution-Conversion">
+<packages>
+<package name="TSW-105-05-G-S(D-C)">
+<pad name="1" x="-3.81" y="20.32" drill="1.016"/>
+<pad name="2" x="-1.27" y="20.32" drill="1.016"/>
+<pad name="3" x="1.27" y="20.32" drill="1.016"/>
+<pad name="4" x="3.81" y="20.32" drill="1.016"/>
+<pad name="5" x="-6.35" y="-20.32" drill="1.016"/>
+<text x="-5.08" y="21.59" size="1.778" layer="25">&gt;NAME</text>
+<pad name="6" x="-3.81" y="-20.32" drill="1.016"/>
+<pad name="7" x="-1.27" y="-20.32" drill="1.016"/>
+<pad name="8" x="1.27" y="-20.32" drill="1.016"/>
+<pad name="9" x="3.81" y="-20.32" drill="1.016"/>
+<pad name="10" x="6.35" y="-20.32" drill="1.016"/>
+<wire x1="-5.08" y1="21.59" x2="-5.08" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="19.05" x2="5.08" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="19.05" x2="5.08" y2="21.59" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="21.59" x2="-5.08" y2="21.59" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-19.05" x2="-7.62" y2="-21.59" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-21.59" x2="7.62" y2="-21.59" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-21.59" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-19.05" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TSW-105-05-G-S">
+<pin name="VIN+" x="-12.7" y="5.08" length="middle"/>
+<pin name="VIN-" x="-12.7" y="0" length="middle"/>
+<pin name="VOUT+_5" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="VOUT+_3" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="VOUT-" x="17.78" y="-4.572" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DISTRIBUTION-CONVERSION">
+<gates>
+<gate name="G$1" symbol="TSW-105-05-G-S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSW-105-05-G-S(D-C)">
+<connects>
+<connect gate="G$1" pin="VIN+" pad="1 2"/>
+<connect gate="G$1" pin="VIN-" pad="3 4"/>
+<connect gate="G$1" pin="VOUT+_3" pad="5 6"/>
+<connect gate="G$1" pin="VOUT+_5" pad="7 8"/>
+<connect gate="G$1" pin="VOUT-" pad="9 10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3658,11 +3658,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="BACKPLANE" library="CONN, Distribution-Backplane" deviceset="DISTRIBUTION-BACKPLANE" device="" value=""/>
 <part name="TETHER_POSITIVE" library="CONN, 3 pin connection to tether" deviceset="796636-3" device=""/>
 <part name="TETHER_GND" library="CONN, 3 pin connection to tether" deviceset="796636-3" device=""/>
-<part name="CONVERSION" library="CONN, Distribution-Conversion" deviceset="DISTRIBUTION-CONVERSION" device=""/>
 <part name="BRICKS1" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" device=""/>
 <part name="BRICKS2" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" device=""/>
 <part name="D13" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-DZ2J150M0L" package3d_urn="urn:adsk.eagle:package:38444/1" value="18V"/>
 <part name="D14" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-DZ2J150M0L" package3d_urn="urn:adsk.eagle:package:38444/1" value="18V"/>
+<part name="U$1" library="CONN, Distribution-Conversion" deviceset="DISTRIBUTION-CONVERSION" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3912,9 +3912,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="TETHER_GND" gate="G$1" x="380.238" y="-62.738" smashed="yes">
 <attribute name="NAME" x="377.698" y="-55.118" size="1.778" layer="95"/>
 </instance>
-<instance part="CONVERSION" gate="G$1" x="86.868" y="-61.722" smashed="yes">
-<attribute name="NAME" x="79.248" y="-54.102" size="1.778" layer="95"/>
-</instance>
 <instance part="BRICKS1" gate="G$1" x="88.9" y="-140.716" smashed="yes">
 <attribute name="NAME" x="76.2" y="-124.968" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="-158.496" size="1.778" layer="96"/>
@@ -3930,6 +3927,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D14" gate="G$1" x="30.988" y="80.264" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.956" y="77.724" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="33.02" y="77.724" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="U$1" gate="G$1" x="86.868" y="-61.722" smashed="yes">
+<attribute name="NAME" x="79.248" y="-54.102" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -4338,7 +4338,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="74.168" y1="-61.722" x2="66.548" y2="-61.722" width="0.1524" layer="91"/>
 <label x="66.548" y="-61.722" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CONVERSION" gate="G$1" pin="VIN-"/>
+<pinref part="U$1" gate="G$1" pin="VIN-"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE" gate="G$1" pin="GND_12V"/>
@@ -4468,7 +4468,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="74.168" y1="-56.642" x2="66.548" y2="-56.642" width="0.1524" layer="91"/>
 <label x="66.548" y="-56.642" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CONVERSION" gate="G$1" pin="VIN+"/>
+<pinref part="U$1" gate="G$1" pin="VIN+"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE" gate="G$1" pin="12V"/>
@@ -4485,7 +4485,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="104.648" y1="-56.642" x2="112.014" y2="-56.642" width="0.1524" layer="91"/>
 <label x="112.014" y="-56.642" size="1.778" layer="95" xref="yes"/>
-<pinref part="CONVERSION" gate="G$1" pin="VOUT+_5"/>
+<pinref part="U$1" gate="G$1" pin="VOUT+_5"/>
 </segment>
 </net>
 <net name="DATA" class="0">
@@ -4557,7 +4557,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="104.648" y1="-61.722" x2="112.014" y2="-61.722" width="0.1524" layer="91"/>
 <label x="111.76" y="-61.722" size="1.778" layer="95" xref="yes"/>
-<pinref part="CONVERSION" gate="G$1" pin="VOUT+_3"/>
+<pinref part="U$1" gate="G$1" pin="VOUT+_3"/>
 </segment>
 </net>
 <net name="ALERT_1" class="0">
@@ -4634,7 +4634,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="104.648" y1="-66.294" x2="112.014" y2="-66.294" width="0.1524" layer="91"/>
 <label x="112.014" y="-66.294" size="1.778" layer="95" xref="yes"/>
-<pinref part="CONVERSION" gate="G$1" pin="VOUT-"/>
+<pinref part="U$1" gate="G$1" pin="VOUT-"/>
 </segment>
 <segment>
 <wire x1="358.394" y1="-155.702" x2="351.79" y2="-155.702" width="0.1524" layer="91"/>

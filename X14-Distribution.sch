@@ -3475,6 +3475,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
 <pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
 <pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
+<wire x1="-26.67" y1="-32.3342" x2="-26.67" y2="43.8658" width="0.1524" layer="21"/>
+<wire x1="-26.67" y1="43.8658" x2="26.67" y2="43.8658" width="0.1524" layer="21"/>
+<wire x1="26.67" y1="-32.3342" x2="-26.67" y2="-32.3342" width="0.1524" layer="21"/>
+<wire x1="26.67" y1="-32.3342" x2="26.67" y2="43.8658" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>

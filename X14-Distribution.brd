@@ -834,7 +834,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="CONN, Distribution-Bricks">
 <packages>
-<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)">
+<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" urn="urn:adsk.eagle:footprint:33720571/1">
 <text x="-25.85" y="8.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-25.85" y="-4.03" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.1" layer="51"/>
@@ -863,8 +863,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="11" x="-2.54" y="0.95" drill="1.02"/>
 <pad name="10" x="-2.54" y="3.49" drill="1.02"/>
 <pad name="09" x="-2.54" y="6.03" drill="1.02"/>
-<hole x="-22.225" y="0" drill="2.49"/>
-<hole x="22.225" y="0" drill="2.49"/>
 <pad name="P02_5" x="6.985" y="-1.59" drill="1.32"/>
 <pad name="P02_6" x="6.985" y="0.95" drill="1.32"/>
 <pad name="P02_7" x="6.985" y="3.49" drill="1.32"/>
@@ -897,12 +895,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
 <pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
 <pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
-<wire x1="-26.67" y1="-32.3342" x2="-26.67" y2="43.8658" width="0.1524" layer="21"/>
-<wire x1="-26.67" y1="43.8658" x2="26.67" y2="43.8658" width="0.1524" layer="21"/>
-<wire x1="26.67" y1="-32.3342" x2="-26.67" y2="-32.3342" width="0.1524" layer="21"/>
-<wire x1="26.67" y1="-32.3342" x2="26.67" y2="43.8658" width="0.1524" layer="21"/>
+<hole x="-22.225" y="0" drill="2.49"/>
+<hole x="22.225" y="0" drill="2.49"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" urn="urn:adsk.eagle:package:33720574/2" type="model">
+<packageinstances>
+<packageinstance name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="CONN, Distribution-Conversion">
 <packages>
@@ -1418,7 +1421,7 @@ Please make sure your boards conform to these design rules.
 <element name="TETHER_GND" library="CONN, 3 pin connection to tether" package="796636-3" value="796636-3" x="51.0794" y="69.4182" smashed="yes">
 <attribute name="NAME" x="42.1894" y="73.2282" size="1.778" layer="25"/>
 </element>
-<element name="BRICKS1" library="CONN, Distribution-Bricks" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" value="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" x="120.142" y="33.782" smashed="yes" rot="MR270">
+<element name="BRICKS1" library="CONN, Distribution-Bricks" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" package3d_urn="urn:adsk.eagle:package:33720574/2" value="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" x="120.142" y="33.782" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Samtec" x="120.142" y="33.782" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MAXIMUM_PACKAGE_HEIGHT" value="17.04mm" x="120.142" y="33.782" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="111.172" y="59.632" size="1.27" layer="26" rot="MR270"/>
@@ -1426,7 +1429,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="STANDARD" value="Manufacturer Recommendations" x="120.142" y="33.782" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="124.172" y="59.632" size="1.27" layer="28" rot="MR270" align="top-left"/>
 </element>
-<element name="BRICKS2" library="CONN, Distribution-Bricks" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" value="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" x="43.942" y="33.782" smashed="yes" rot="MR270">
+<element name="BRICKS2" library="CONN, Distribution-Bricks" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" package3d_urn="urn:adsk.eagle:package:33720574/2" value="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" x="43.942" y="33.782" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Samtec" x="43.942" y="33.782" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MAXIMUM_PACKAGE_HEIGHT" value="17.04mm" x="43.942" y="33.782" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="34.972" y="59.632" size="1.27" layer="26" rot="MR270"/>

@@ -3412,7 +3412,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="CONN, Distribution-Bricks">
 <packages>
-<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)">
+<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" urn="urn:adsk.eagle:footprint:33720571/1">
 <text x="-25.85" y="8.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-25.85" y="-4.03" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.1" layer="51"/>
@@ -3441,8 +3441,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="11" x="-2.54" y="0.95" drill="1.02"/>
 <pad name="10" x="-2.54" y="3.49" drill="1.02"/>
 <pad name="09" x="-2.54" y="6.03" drill="1.02"/>
-<hole x="-22.225" y="0" drill="2.49"/>
-<hole x="22.225" y="0" drill="2.49"/>
 <pad name="P02_5" x="6.985" y="-1.59" drill="1.32"/>
 <pad name="P02_6" x="6.985" y="0.95" drill="1.32"/>
 <pad name="P02_7" x="6.985" y="3.49" drill="1.32"/>
@@ -3475,12 +3473,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
 <pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
 <pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
-<wire x1="-26.67" y1="-32.3342" x2="-26.67" y2="43.8658" width="0.1524" layer="21"/>
-<wire x1="-26.67" y1="43.8658" x2="26.67" y2="43.8658" width="0.1524" layer="21"/>
-<wire x1="26.67" y1="-32.3342" x2="-26.67" y2="-32.3342" width="0.1524" layer="21"/>
-<wire x1="26.67" y1="-32.3342" x2="26.67" y2="43.8658" width="0.1524" layer="21"/>
+<hole x="-22.225" y="0" drill="2.49"/>
+<hole x="22.225" y="0" drill="2.49"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)" urn="urn:adsk.eagle:package:33720574/2" type="model">
+<packageinstances>
+<packageinstance name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="PESC-02-12-02-01-X-VT-LC">
 <wire x1="-12.7" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
@@ -3519,6 +3522,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="DATA" pad="01"/>
 <connect gate="G$1" pin="ON/OFF" pad="05"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33720574/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Samtec"/>
@@ -3658,8 +3664,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="BACKPLANE" library="CONN, Distribution-Backplane" deviceset="DISTRIBUTION-BACKPLANE" device="" value=""/>
 <part name="TETHER_POSITIVE" library="CONN, 3 pin connection to tether" deviceset="796636-3" device=""/>
 <part name="TETHER_GND" library="CONN, 3 pin connection to tether" deviceset="796636-3" device=""/>
-<part name="BRICKS1" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" device=""/>
-<part name="BRICKS2" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" device=""/>
+<part name="BRICKS1" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" device="" package3d_urn="urn:adsk.eagle:package:33720574/2"/>
+<part name="BRICKS2" library="CONN, Distribution-Bricks" deviceset="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" device="" package3d_urn="urn:adsk.eagle:package:33720574/2"/>
 <part name="D13" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-DZ2J150M0L" package3d_urn="urn:adsk.eagle:package:38444/1" value="18V"/>
 <part name="D14" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-DZ2J150M0L" package3d_urn="urn:adsk.eagle:package:38444/1" value="18V"/>
 <part name="U$1" library="CONN, Distribution-Conversion" deviceset="DISTRIBUTION-CONVERSION" device=""/>
